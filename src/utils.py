@@ -29,7 +29,7 @@ def get_version():
             отображается сообщение об ошибке.
 
     """
-    url = "https://api.github.com/repos/Krnvaa/Drawing_rectangles/releases/latest"
+    url = "https://api.github.com/repos/Krnvaa/Rotating_line_segment/releases/latest"
     try:
         response = requests.get(url)
         response.raise_for_status()
